@@ -1,0 +1,29 @@
+[application]
+
+config/icon = "res://icon.png"
+config/name = "Simple Input Observer"
+run/main_scene = "res://program manager.tscn"
+
+[display]
+
+window/size/height = 60
+window/size/test_height = 120
+window/size/test_width = 400
+window/size/width = 200
+window/stretch/mode = "viewport"
+
+[importer_defaults]
+
+texture = {
+"flags/filter": true,
+"flags/mipmaps": true
+}
+
+[physics_2d]
+
+motion_fix_enabled = true
+
+[rendering]
+
+quality/2d/use_pixel_snap = true
+
